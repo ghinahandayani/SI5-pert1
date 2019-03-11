@@ -4,8 +4,21 @@
 	<title>Latihan CRUD</title>
     </style>
 <link rel="stylesheet" type="text/css" href="css.css">
+	<style>
+		.tengah {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 20px;
+		right: 20px;
+		width: auto;
+		height : 800px;
+		background-color: LightCyan;
+		border: 1px solid black; }
+	</style>
 	</head>
 <body>
+	<div class="tengah">
 	<h3><p align="center"><a href="index.php">Halaman Muka</a> / <a href="tambah.php">Halaman Admin</a></p>
 	<p>Edit Data Praktikan</p></h3>	
 	<?php
@@ -82,5 +95,6 @@
 	</tr>
 	</table>
 	</form>
+	</div>
 </body>
 </html>
